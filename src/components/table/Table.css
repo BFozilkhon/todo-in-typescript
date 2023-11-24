@@ -1,0 +1,95 @@
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 16px;
+}
+
+.table-headers {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.88);
+  background: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+
+.table-items {
+  font-size: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.table-status {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: fit-content;
+  border-radius: 4px;
+  user-select: none;
+  display: inline;
+  margin: 0px 5px;
+  border: 1px solid none;
+}
+
+.status-finished {
+  border-color: #b7eb8f;
+  background-color: #f6ffed;
+  color: #389e0d;
+}
+
+.status-unfinished {
+  color: #d4380d;
+  background: #fff2e8;
+  border-color: #ffbb96;
+}
+
+.table-btn {
+  border: none;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.5s opacity ease-out;
+}
+
+.table-btn:hover {
+  opacity: 0.7;
+}
+
+.table-btn:active {
+  transform: scale(0.98);
+  opacity: 1;
+}
+
+.edit {
+  background-color: #1677ff;
+}
+
+.delete {
+  background-color: #ff4d4f;
+}
+
+.items-copy {
+  position: relative;
+}
+
+.copy {
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border: 1px solid #b7eb8f;
+  background-color: #f6ffed;
+  color: #389e0d;
+  border-radius: 4px;
+  cursor: copy;
+}

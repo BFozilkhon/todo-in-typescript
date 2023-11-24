@@ -1,0 +1,56 @@
+.topbar-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #1677ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.topbar-header {
+  font-size: 25px;
+  color: white;
+}
+
+.topbar-box {
+  display: flex;
+  gap: 15px;
+}
+
+.topbar-btn {
+  border: none;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s opacity ease-out;
+  background-color: #389e0d;
+  padding: 0px 15px;
+  height: 40px;
+}
+
+.topbar-btn:hover {
+  opacity: 0.8;
+}
+
+.topbar-btn:active {
+  transform: scale(0.91);
+  opacity: 1;
+}
+
+.topbar-input {
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  height: 40px;
+}
